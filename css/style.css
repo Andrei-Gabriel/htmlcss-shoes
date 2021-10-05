@@ -6,6 +6,7 @@
 }
 /* Inizio nav -------------------------------------------------- */
 nav {
+    z-index: 1;
     position: fixed;
     top: 50px;
     right: 20px;
