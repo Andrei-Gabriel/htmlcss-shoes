@@ -4,11 +4,11 @@
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
 }
-
 nav {
     position: fixed;
     top: 50px;
-    right: 50px;
+    right: 20px;
+    float: right;
 }
     a {
         background-color: white;
@@ -36,21 +36,20 @@ nav {
     #giallo {
         background-color: yellow;
     }
-
         .container div {
             text-align: center;
             position: absolute;
+            width: 35vw;
             top: 50%; 
             right: 50%;
             transform: translate(50%,-50%);
         }
             img {
-                height: 60vh;
+                width: 35vw;
             }
             span {
                 color: yellow;
                 display: block;
-                width: 35vw;
             }
             #giallo div span {
                 color: green;
